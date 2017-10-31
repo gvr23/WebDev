@@ -1,0 +1,39 @@
+database 
+    *collection of data.
+    +has interface to intercat with the data.
+
+SQL
+    +tabular databases and flat
+    +need to define patterns ahead of time.
+    *relate tables through other tables oro foreign and primary keys.
+    
+NOSQL
+    +no tables
+    +things can be nested.
+    +bson is the syntaxis
+    
+{
+    name: "Ira",
+    age: 24,
+    city: "Miissoula",
+    comments: [
+        text: "Come visit Mooontana!",
+        text: "Seariously Montana is not great"
+    ]
+}
+
+MongoDB
+    *https://community.c9.io/t/setting-up-mongodb/1717
+    mongod to use mongo at all
+    show dbs, to show databases
+    use to use a specifc or createa database
+    +++++++++++++++++++++++++++++++++++++++
+    4 cruds commands
+    - db.***.find()
+    - db.***.insert({})
+    - db.***.update({}, {$set: {}})
+    - db.***.remove({})
+    
+If you're still having trouble getting it to run then find the /data directory 
+(it should be inside of ~ or ~/workspace) and cd into it. 
+Once inside, run rm mongod.lock then cd back into ~ and run ./mongod again (see below).

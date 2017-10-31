@@ -1,0 +1,16 @@
+{
+  "name": "associations",
+  "version": "1.0.0",
+  "main": "embed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.0",
+    "mongoose": "^4.11.13"
+  },
+  "devDependencies": {},
+  "description": ""
+}

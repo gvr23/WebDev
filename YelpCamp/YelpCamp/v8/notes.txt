@@ -1,0 +1,7 @@
+***************package for flash message****************
+connect-flash
+
+********************************************************
+whenever I want to display a message
+    1. use req.flash("type", "message"); before I redirect
+    2. and then in app.js include iit so every template sees it and also in the header file

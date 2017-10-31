@@ -1,0 +1,13 @@
+======================RESTFUL ROUTES=======================
+
+name           url           verb           desc.
+===========================================================
+INDEX         /item          GET            Display a list of all items.
+NEW           /item/new      GET            Displays a form to make a new item.
+CREATE        /item          POST           Adds a new item.
+SHOW          /item/:id      GET            Shows info about one item.
+
+====================NESTED ROUTES==========================
+**IN THIS CASE FOR COMMENTS**COMMENT IS DEPENDENT ON A CAMPGROUND
+    NEW       /campgrounds/:id/comments/new GET
+    CREATE    /campgrounds/:id/comments

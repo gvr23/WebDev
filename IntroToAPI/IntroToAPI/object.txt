@@ -1,0 +1,11 @@
+API, stands for Application Programming Interface
+++++ they are interfaces for computers to talk to one another ++++
++++ any interface that is made so it cant connect with other code over hhtp +++
+
+package to send a request from javascipt
+
+typeof to che what type of data it is.
+in order to utilize or strip each part of the data we need to utilize JSON.parse
+
+So everything is exactly the same as Colt explains in the following videos, except you must append &apikey=thewdb to the end of your url.
+
